@@ -2,7 +2,7 @@ define([
     "dojo/_base/declare",
     "mxui/widget/_WidgetBase",
     "dijit/_TemplatedMixin",
-
+    "dijit/_TemplatedMixin",
     "mxui/dom",
     "dojo/dom",
     "dojo/dom-style",
@@ -31,7 +31,6 @@ define([
 
         update: function(obj, callback) {
             this._contextObj = obj;
-           // this._resetSubscriptions(); 
             this._updateRendering(callback); 
         },
 
@@ -48,32 +47,6 @@ define([
             }
             this._executeCallback(callback, "_updateRendering");
         },
-/*
-        _resetSubscriptions: function() {
-            this.unsubscribeAll();
-            if (this._contextObj) {
-                this.subscribe({
-                    guid: this._contextObj.getGuid(),
-                    callback: lang.hitch(this, function (guid) {
-                        this._updateRendering();
-                    })
-                });
-
-                this.subscribe({
-                    guid: this._contextObj.getGuid(),
-                    attr: this.backgroundColor,
-                    callback: lang.hitch(this, function (guid, attr, attrValue) {
-                        this._updateRendering();
-                    })
-                });
-
-                this.subscribe({
-                    guid: this._contextObj.getGuid(),
-                    val: true,
-                    callback: lang.hitch(this, this._handleValidation)
-                });
-            }
-        },*/
         _executeCallback: function(cb, from) {
             if (cb && typeof cb === "function") {
                 cb();
