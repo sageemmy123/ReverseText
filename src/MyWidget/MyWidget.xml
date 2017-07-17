@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="MyWidget.widget.MyWidget" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>ReverseText</name>
+    <description>This project reverses an input text.</description>
+
+    <icon />
+    <properties>
+    </properties>
+
+
+
+</widget>
+
