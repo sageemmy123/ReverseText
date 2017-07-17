@@ -18,6 +18,5 @@ node_modules/
 .jshintric
 .yo-rc.json
 icon.png
-package.json
 xsd/
 *.bak
