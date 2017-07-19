@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="ReverseText.widget.ReverseText" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>ReverseText</name>
+    <description>Reverses text.</description>
+
+    <icon />
+
+    <properties>
+    <property key="dataAttribute" type="attribute" required="true">
+    <caption>Tag attribute</caption>
+    <category>Data source</category>
+    <description>Handles Text input</description>
+    <attributeTypes>
+    <attributeType name="string"/>
+    </attributeTypes>
+    </property>
+    <property key="Text" type="entity" required="false">
+    <caption>Add Data to grid</caption>
+    <category>Data Source</category>
+    <description>Adds Data</description>
+    </property>
+    <property key="micflowAction" type="microflow" required="false">
+    <caption>Microflow</caption>
+    <category>Behaviur</category>
+    <description>Microflow to execute on click</description>
+    <returnType name="Boolean" />
+    </property>
+    </properties>
+</widget>
+

@@ -1,8 +1,4 @@
-.widgetname {
-    
-}
-
-.widgetname-message {
+.ReverseText {
 
 }
 
@@ -11,7 +7,7 @@
     padding: 2px 6px;
 }
 
-.widgetname-infoTextNode {
+.ReverseText-infoTextNode {
     padding: 0.8em 1em;
     margin-top: 10px;
 }
