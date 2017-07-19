@@ -1,0 +1,21 @@
+{
+  "name": "ReverseText",
+  "version": "1.0.0",
+  "description": "It saves a text input into a grid and triggers a message when the mouse leaves the textbox",
+  "license": "Apache 2",
+  "author": "David and Emma",
+  "private": true,
+  "dependencies": {
+  },
+  "engines": {
+    "node": ">=5"
+  },
+  "generatorVersion": "2.2.3",
+  "paths": {
+    "testProjectFolder": "./test/",
+    "testProjectFileName": "Test.mpr"
+  },
+  "scripts": {
+    "build": "grunt build"
+  }
+}
