@@ -1,7 +1,8 @@
-<div class="ReverseText">
-    <form>  
-        <input type="text" data-dojo-attach-point="StringNode" placeholder="Add Your Missing item">
-        <input type="button" data-dojo-attach-event="onClick:createNewItem" value="Click to Add">
+<div class="widgetname">
+    <form>
+        <input type="button" value="Add your string" data-dojo-attach-event="onClick:createItem">
+        <input type="text" placeholder="Add your string" data-dojo-attach-point="StringNode" data-dojo-attach-event="onmouseleave:_setupEvents">
     </form>
-    <div class="ReverseText-infoTextNode" data-dojo-attach-point="infoTextNode" />
+    <div class="widgetname-infoTextNode" data-dojo-attach-point="infoTextNode" />
 </div>
+

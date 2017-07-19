@@ -10,14 +10,11 @@ test/.project
 *.tmp
 *.lock
 .idea/
+
 dist/
+
 node_modules/
 .editorconfig
 *DS_Store*
 .vscode/
-.jshintric
-.yo-rc.json
-icon.png
-package.json
-xsd/
 *.bak
